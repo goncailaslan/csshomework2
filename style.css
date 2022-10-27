@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.centerize{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.row{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a{
+    display: block;
+}
+.wide{
+    width: 37%;
+    
+}
+.center{
+    width: 26%;
+    background-color: #70CCC2;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.wide,.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+
+}
+p{
+    margin: 0%;
+}
+.right{
+    background-color: #62B3AA;
+}
+.left{
+    background-color: #7EE5DA;
+}
+
+
+.copy{
+    padding-top: 20px;
+}
+.archive{
+    display: inline;
+}
